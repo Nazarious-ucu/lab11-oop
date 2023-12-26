@@ -19,4 +19,3 @@ jobs:
           distribution: 'adopt'
       - name: Test with Maven
         run: mvn --batch-mode --update-snapshots package
-        run: mvn install:install-file "-DgroupId=org.mozilla" "-DartifactId=jss" "-Dversion=4.2.5" "-Dpackaging=jar" "-Dfile=C:\Users\AArmijos\workspace\componentes-1.0.4\deps\jss-4.2.5.jar"
